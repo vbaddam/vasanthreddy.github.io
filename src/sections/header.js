@@ -1,6 +1,5 @@
 //import "./syles.css";
 import React from "react";
-import { Link } from "react-router";
 import twitter from "../images/twitter.gif";
 import linkedin from "../images/linkedin.gif";
 import github from "../images/github.gif";
