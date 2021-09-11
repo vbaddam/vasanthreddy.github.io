@@ -1,28 +1,34 @@
 {
-  "name": "devportfolio-template",
-  "version": "1.1.3",
-  "description": "",
-  "main": "js/scripts.js",
-  "scripts": {
-    "watch": "gulp watch"
-  },
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React example starter project",
   "keywords": [
-    "portfolio",
-    "personal",
-    "website",
-    "tech",
-    "coding",
-    "dev"
+    "react",
+    "starter"
   ],
-  "author": "Ryan Fitzgerald",
-  "license": "MIT",
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-auto-scale": "^1.0.4",
+    "react-dom": "17.0.2",
+    "react-router": "5.2.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.0"
+  },
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
-    "gulp-plumber": "^1.2.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.1",
-    "gulp-wait": "0.0.2"
-  }
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
